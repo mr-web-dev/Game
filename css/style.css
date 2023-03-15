@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100vw;
   height: 100vh;
   padding: 0px;
@@ -13,24 +14,28 @@ html, body {
   width: 100vw;
 }
 
-a, h1 {
+a,
+h1 {
   font-family: 'Roboto', 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0px;
 }
 
-a {  
+a {
   backdrop-filter: blur(3px);
   background-color: rgba(255, 255, 255, 0.1);
+  transition: 0.4s;
 }
 
-a:hover, a:focus, #youtube-link:hover, #youtube-link:focus {
+a:hover,
+a:focus,
+#youtube-link:focus {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
 #inspiration-link {
   height: 20px;
-  position: absolute;  
+  position: absolute;
   padding: 10px 15px;
   left: 0px;
   bottom: 0px;
